@@ -346,6 +346,10 @@ form{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    align-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    justify-content: center;
 }
 .ticket{
     box-sizing: content-box;
@@ -361,8 +365,14 @@ form{
     flex-direction: row;
     align-items: center;
     padding-top: 20px;
+    justify-content: center;    
+}
+
+.displayTicket p{
+    display: flex;
+    align-content: center;
+    box-sizing: content-box;
     justify-content: center;
-    
 }
 
 #ticket-estudiante{
@@ -377,3 +387,16 @@ form{
     border: solid gold 3px;
 }
 
+#formulario-ticket input {
+    margin: 4px;
+}
+#fila-cant-cate input{
+    width: 100%;
+    display: block;
+}
+#fila-cant-cate div{
+    float: left;
+    padding: 0px;
+    margin: 3px;
+    width: 49%
+}
